@@ -28,9 +28,11 @@ body > div.modal {
     box-shadow: #64686e 0px 0px 3px 3px;
     -moz-box-shadow: #64686e 0px 0px 3px 3px;
     -webkit-box-shadow: #64686e 0px 0px 3px 3px;
-    position: relative;
-    top: 0px;
-    left: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
   }
   .popup-div {
     padding: 15px;
@@ -406,9 +408,11 @@ footer{
         box-shadow: #64686e 0px 0px 3px 3px;
         -moz-box-shadow: #64686e 0px 0px 3px 3px;
         -webkit-box-shadow: #64686e 0px 0px 3px 3px;
-        position: relative;
-        top: 0px;
-        left: 25%;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
     }
     .img-product{
         height: 600px;
